@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+  /* css style start from here */
+  .nav-button{
+    padding: 0px 20px;
+  }
+
+  /* .nav-button i{
+    margin-top:19px;
+  } */
+
+  .hamburger-image{
+    display:none;
+  }
+
+

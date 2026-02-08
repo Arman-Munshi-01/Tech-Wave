@@ -4,7 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles/techwave.css" />
   </head>
-  <body></body>
+  <body class="inter-font">
+    <header>
+      <nav class="flex justify-around p-6 bg-[#1A0B2E] item-center">
+        <h1 class="navbar-logo text-4xl font-extrabold"><span class="text-white">Tech</span><span class="bg-linear-to-r from-[#f7e93f] from-0% via-[#fb09b4] via-51% to-[#9100f8] to-100% bg-clip-text text-transparent">Wave</span></h1>
+        <ul class="flex gap-8 text-[16px] font-medium text-white">
+            <li><a href="">About</a></li>
+            <li><a href="">Episodes</a></li>
+            <li><a href="">Host</a></li>
+        </ul>
+        <button class="nav-button flex items-center text-[16px] font-semibold text-white gap-1 rounded-[10000px] bg-linear-to-r from-[#f7e93f] from-0% via-[#fb09b4] via-51% to-[#9100f8] to-100% px-4 py-4 cursor-pointer">
+            <p>Subscribe</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <div class="hamburger-image">
+            <img src="assets/hamburger-menu.png" alt="">
+        </div>
+      </nav>
+      <section class="banner py-[101px]">
+        <div class="banner-container"></div>
+      </section>
+    </header>
+  </body>
 </html>
