@@ -34,6 +34,7 @@
     max-width: 550px;
     margin: 0 auto;
     margin-top:-100px;
+    
 
 }
 
@@ -60,11 +61,66 @@
 
 .hero-circle{
     width: 100%;
+    
 }
 
 .microphone{
     margin:0 auto;
     margin-top: -255px;
 }
+
+/* podcast style section */
+.podcast{
+    background-color: #1a0b2e;
+    margin-top: -38px;
+
+}
+.podcast-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.podcast-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.podcast-description{
+    font-size: 1rem;
+    color:#ffffff9d;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+
+.podcast-rate{
+    border-top: 1px solid rgba(255, 255, 255, 0.355);
+    padding:80px 0px;
+}
+
+.podcast-rate-item{
+    text-align: center;
+}
+
+.podcast-rate-item h2{
+    color:#00ff88;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.podcast-rate-item i{
+    color:#00ff88;
+}
+
+.podcast-rate-item p{
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
 
 
